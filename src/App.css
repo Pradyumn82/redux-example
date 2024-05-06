@@ -1,0 +1,28 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+.nav-container {
+  margin-top: 20px;  
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 10px;  
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;  
+}
